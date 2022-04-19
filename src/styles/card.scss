@@ -1,0 +1,12 @@
+.card{
+    box-shadow:var(--box-shadow-v1);
+    display:flex;
+    border-radius:var(--border-radius-lg);
+    width:426px;
+    max-width:100%;
+    border:solid 1px var(--gray-outline);
+    padding:30px;
+    min-height:275px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}

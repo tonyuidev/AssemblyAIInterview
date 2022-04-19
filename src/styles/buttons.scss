@@ -1,0 +1,36 @@
+button {
+    outline: none;
+    transition: all .3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        outline: none;
+    }
+
+    &:disabled {
+        opacity: .5;
+        cursor: not-allowed;
+    }
+}
+
+
+.button {
+    font-family: var(--primary-font);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    font-size: var(--base-font);
+    padding: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    &.primary-button {
+        background-color: var(--primary-color);
+        color: var(--white);
+        border-radius: var(--border-radius);
+
+
+
+    }
+}

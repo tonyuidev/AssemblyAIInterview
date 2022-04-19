@@ -1,0 +1,25 @@
+.input-label {
+    display: flex;
+    margin-bottom: 30px;
+
+    &.full-width {
+        width: 100%;
+        display: flex;
+    }
+}
+
+
+input {
+    font-family: var(--primary-font);
+    border: solid 1px var(--gray-outline);
+    height: 51px;
+    padding: 0px;
+    border-radius: var(--border-radius);
+    padding: 16px 14px;
+    font-size: 1.21em;
+    font-weight: 400;
+    color:#09032F;
+    &::placeholder {
+        color: var(--gray-input);
+    }
+}
