@@ -1,5 +1,10 @@
 # AssemblyAI Interview - Tony St Pierre
 
+## `git clone https://github.com/tonyuidev/AssemblyAIInterview.git`
+## `cd AssemblyAIInterview`
+## `npm start` to run dev version
+## `run serve -s build` to run prebuild production
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
